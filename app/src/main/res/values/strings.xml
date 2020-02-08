@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginPHP</string>
+    <string name="hint_usuario">Usuário</string>
+    <string name="hint_senha">Senha</string>
+    <string name="text_logar">Logar</string>
+    <string name="text_regitrar">Registrar</string>
+    <string name="hint_nome_completo">Nome Completo</string>
+    <string name="hint_tmail">Email</string>
+    <string name="hint_confirmar_senha">Confirmar Senha</string>
+    <string name="text_confirmar">Confirmar</string>
+</resources>
