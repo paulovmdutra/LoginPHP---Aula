@@ -16,6 +16,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         btnRegistrarUsuario = (Button)findViewById(R.id.btnRegistrar);
+
+        TesteConexaoController testeConexaoController = new TesteConexaoController(this);
+        testeConexaoController.testarConexao();
+
     }
 
     public void showRegistrarUsuario(View view){
