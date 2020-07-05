@@ -9,16 +9,13 @@ import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private Button btnRegistrarUsuario;
+    private Button mBtnRegistrarUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        btnRegistrarUsuario = (Button)findViewById(R.id.btnRegistrar);
-
-        TesteConexaoController testeConexaoController = new TesteConexaoController(this);
-        testeConexaoController.testarConexao();
+        mBtnRegistrarUsuario = (Button)findViewById(R.id.btnRegistrar);
 
     }
 
